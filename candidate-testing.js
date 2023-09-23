@@ -8,7 +8,7 @@ let candidateName = "";
 
 
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let question = "";
+let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
 let candidateAnswer = "";
 
@@ -27,7 +27,7 @@ function askForName() {
 
 function askQuestion() {
   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //}
-  candidateAnswer = input.question("Who was the first woman in space? ");
+  candidateAnswer = input.question(question);
 }
 function gradeQuiz(candidateAnswers) {
   if (candidateAnswer === correctAnswer ) {
